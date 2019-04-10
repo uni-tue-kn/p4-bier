@@ -1,0 +1,7 @@
+mirroring_add 1024 14
+table_add ingress.bte_c.bift ingress.bte_c.forward 0b010000&&&0b010000 => 0b10000 0b10100000 1 1
+table_add ingress.bte_c.bift ingress.bte_c.forward 0b010000000&&&0b010000000 => 0b010000000 0b10100000 3 2
+table_add ingress.bte_c.bift ingress.bte_c.routed 0b0100000&&&0b0100000 => 0b0100000 0b10100000 20.0.2.6 20.0.4.7 1
+
+table_add ingress.ipv4_c.ipv4_lpm ingress.ipv4_c.ipv4_forward 20.0.4.7/32 => 2
+

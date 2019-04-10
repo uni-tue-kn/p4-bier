@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+package controller_connection;
+
+service LocalServer {
+  rpc AddEntry (TableEntry) returns (Status);
+  rpc RemoveEntry (TableEntry) returns (Status);
+  rpc Hello (HelloMessage) returns (SwitchInfo);
+}
+
+service GlobalServer {
+  // use bidirectional streaming for packet to main controller
+  rpc GroupMessage (GroupPacket) returns (Status);
+  rpc TopologyMessage (TopologyPacket) returns (Status);
+  rpc PortMessage (PortInfo) returns (Status);
+  rpc CheckConnection (Empty) returns (Status);
+}
+
+message Empty {}
+
+message HelloMessage {
+  // this message is used to send ip and port of global grpc server to local controller
+  string ip = 1;
+  uint32 port = 2;
+}
+
+message SwitchInfo {
+  // switch information to global controller
+  string name = 1;
+  string ip = 2;
+  string mac = 3;
+  uint32 bfr_id = 4;
+}
+
+message Status {
+  // indicates whether transmission was successfull
+  uint32 code = 1;
+  string message = 2;
+}
+
+message TableEntry {
+  // represents a table entry
+  // table_entry is a serialized pickle string containing a TableEntry Object
+  // used to send a table entry from global to local controller
+  string table_name = 1;
+  string table_entry = 2;
+}
+
+message GroupPacket {
+  // used to send group packet from local to global controller
+  uint32 type = 1;
+  string mc_address = 2;
+  string src_ip = 3;
+  string switch = 4;
+}
+
+message TopologyPacket {
+  // used to send topology packet from local to global controller
+  string ip = 1;
+  string mac = 2;
+  uint32 port = 3;
+  string name = 4;
+  string switch = 5;
+}
+
+message PortInfo {
+  // used to send port information from local to global controller
+  string switch = 1; // identifies sending switch
+  uint32 port = 2;
+  bool status = 3; // indicates up / down
+}

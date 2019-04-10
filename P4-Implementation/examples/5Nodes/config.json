@@ -1,0 +1,35 @@
+{
+  "switches": [
+    {
+      "name": "s1",
+      "ingress": false,
+      "local_controller_port": 30051
+    },
+    {
+      "name": "s2",
+      "ingress": true,
+      "local_controller_port": 30052
+    },
+    {
+      "name": "s3",
+      "ingress": false,
+      "local_controller_port": 30053
+    },
+    {
+      "name": "s4",
+      "ingress": false,
+      "local_controller_port": 30054
+    },
+    {
+      "name": "s5",
+      "ingress": true,
+      "local_controller_port": 30055
+    }
+  ],
+  "mode": "BIER-TE",
+  "debug": true,
+  "cluster": 2,
+  "tunnel": "IPv4",
+  "listen_port": 53020,
+  "protection": "None"
+}

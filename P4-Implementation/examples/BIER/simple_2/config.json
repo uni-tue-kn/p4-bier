@@ -1,0 +1,37 @@
+{
+  "switches": [
+    {
+      "name": "s1",
+      "ingress": true,
+      "local_controller_port": 30051,
+      "static_rules": "/home/P4/Implementation/P4-Implementation/examples/BIER/simple/cli/cli-1.json"
+    },
+    {
+      "name": "s2",
+      "ingress": false,
+      "local_controller_port": 30052
+    },
+    {
+      "name": "s3",
+      "ingress": true,
+      "local_controller_port": 30053
+    },
+    {
+      "name": "s4",
+      "ingress": false,
+      "local_controller_port": 30054
+    },
+    {
+      "name": "s5",
+      "ingress": false,
+      "local_controller_port": 30055
+    }
+  ],
+  "mode": "BIER",
+  "debug": true,
+  "listen_port": 53020,
+  "protection": "None",
+  "update": [],
+  "delay": 0.15,
+  "static_rules": false
+}

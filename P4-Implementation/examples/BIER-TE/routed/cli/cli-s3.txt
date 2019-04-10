@@ -1,0 +1,3 @@
+mirroring_add 1024 14
+table_add ingress.ipv4_c.ipv4_lpm ingress.ipv4_c.ipv4_forward 20.0.4.7/32 => 2
+

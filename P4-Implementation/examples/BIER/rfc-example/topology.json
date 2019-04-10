@@ -1,0 +1,75 @@
+{
+  "hosts": [
+    "h1",
+    "h2",
+    "h3",
+    "h4"
+  ],
+  "controller": [
+    "c1"
+  ],
+  "switches": {
+    "s1": {
+      "cli_input": "examples/BIER/rfc-example/cli/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s2": {
+      "cli_input": "examples/BIER/rfc-example/cli/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s3": {
+      "cli_input": "examples/BIER/rfc-example/cli/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s4": {
+      "cli_input": "examples/BIER/rfc-example/cli/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s5": {
+      "cli_input": "examples/BIER/rfc-example/cli/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s6": {
+      "cli_input": "examples/BIER/rfc-example/cli/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    }
+  },
+  "links": [
+    [
+      "h1",
+      "s1"
+    ],
+    [
+      "s1",
+      "s2"
+    ],
+    [
+      "s2",
+      "s5"
+    ],
+    [
+      "s5",
+      "h2"
+    ],
+    [
+      "s2",
+      "s3"
+    ],
+    [
+      "s3",
+      "s6"
+    ],
+    [
+      "s6",
+      "h3"
+    ],
+    [
+      "s3",
+      "s4"
+    ],
+    [
+      "s4",
+      "h4"
+    ]
+  ]
+}

@@ -1,0 +1,4 @@
+mirroring_add 1024 14
+table_add ingress.bte_c.bift ingress.bte_c.forward 0b01000000000000&&&0b01000000000000 => 0b01000000000000 0b01010100001000 4 1
+table_add ingress.ipv4_c.ipv4_mc ingress.ipv4_c.ipv4_forward 224.0.0.1 => 1
+table_add ingress.tunnel_c.decap_bier ingress.tunnel_c.bier_decap 0b01000&&&0b01000 => 0b01000 1

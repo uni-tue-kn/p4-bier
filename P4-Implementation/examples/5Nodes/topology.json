@@ -1,0 +1,55 @@
+{
+  "switches": {
+    "s3": {
+      "cli_input": "examples/default/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s2": {
+      "cli_input": "examples/default/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s1": {
+      "cli_input": "examples/default/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s5": {
+      "cli_input": "examples/default/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    },
+    "s4": {
+      "cli_input": "examples/default/cli-default.txt",
+      "controller": "/home/P4/Implementation/Local-Controller/controller.py"
+    }
+  },
+  "hosts": [
+    "h1",
+    "h2",
+    "h3"
+  ],
+  "links": [
+    [
+      "s1",
+      "s2"
+    ],
+    [
+      "s1",
+      "s3"
+    ],
+    [
+      "s2",
+      "h1"
+    ],
+    [
+      "s3",
+      "s4"
+    ],
+    [
+      "s3",
+      "s5"
+    ],
+    [
+      "s5",
+      "h2"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "switches": [
+    {
+      "name": "s1",
+      "ingress": true,
+      "local_controller_port": 30051
+    },
+    {
+      "name": "s2",
+      "ingress": true,
+      "local_controller_port": 30052
+    },
+    {
+      "name": "s3",
+      "ingress": true,
+      "local_controller_port": 30053
+    },
+    {
+      "name": "s4",
+      "ingress": true,
+      "local_controller_port": 30054
+    }
+  ],
+  "mode": "BIER-TE",
+  "debug": true,
+  "cluster": 1,
+  "tunnel": "None",
+  "listen_port": 53020,
+  "protection": "Link"
+}

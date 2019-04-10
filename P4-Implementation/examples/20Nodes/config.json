@@ -1,0 +1,110 @@
+{
+  "switches": [
+    {
+      "name": "s1",
+      "ingress": false,
+      "local_controller_port": 30051
+    },
+    {
+      "name": "s2",
+      "ingress": false,
+      "local_controller_port": 30052
+    },
+    {
+      "name": "s3",
+      "ingress": false,
+      "local_controller_port": 30053
+    },
+    {
+      "name": "s4",
+      "ingress": false,
+      "local_controller_port": 30054
+    },
+    {
+      "name": "s5",
+      "ingress": false,
+      "local_controller_port": 30055
+    },
+    {
+      "name": "s6",
+      "ingress": true,
+      "local_controller_port": 30056
+    },
+    {
+      "name": "s7",
+      "ingress": true,
+      "local_controller_port": 30057
+    },
+    {
+      "name": "s8",
+      "ingress": true,
+      "local_controller_port": 30058
+    },
+    {
+      "name": "s9",
+      "ingress": true,
+      "local_controller_port": 30059
+    },
+    {
+      "name": "s10",
+      "ingress": false,
+      "local_controller_port": 30060
+    },
+    {
+      "name": "s11",
+      "ingress": false,
+      "local_controller_port": 30061
+    },
+    {
+      "name": "s12",
+      "ingress": false,
+      "local_controller_port": 30062
+    },
+    {
+      "name": "s13",
+      "ingress": false,
+      "local_controller_port": 30063
+    },
+    {
+      "name": "s14",
+      "ingress": false,
+      "local_controller_port": 30064
+    },
+    {
+      "name": "s15",
+      "ingress": false,
+      "local_controller_port": 30065
+    },
+    {
+      "name": "s16",
+      "ingress": true,
+      "local_controller_port": 30066
+    },
+    {
+      "name": "s17",
+      "ingress": true,
+      "local_controller_port": 30067
+    },
+    {
+      "name": "s18",
+      "ingress": true,
+      "local_controller_port": 30068
+    },
+    {
+      "name": "s19",
+      "ingress": true,
+      "local_controller_port": 30069
+    },
+    {
+      "name": "s20",
+      "ingress": false,
+      "local_controller_port": 30070
+    }
+  ],
+  "mode": "BIER-TE",
+  "debug": true,
+  "cluster": 3,
+  "tunnel": "IPv4",
+  "listen_port": 53020,
+  "protection": "None"
+}

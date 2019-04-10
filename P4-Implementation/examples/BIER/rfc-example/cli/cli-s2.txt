@@ -1,0 +1,5 @@
+mirroring_add 1024 14
+table_add ingress.bier_c.live_ports ingress.bier_c.set_livePorts => 0b111
+table_add ingress.bier_c.bift ingress.bier_c.forward 0b01&&&0b01 0b10&&&0b10 => 0b0011 2 1
+table_add ingress.bier_c.bift ingress.bier_c.forward 0b10&&&0b10 0b10&&&0b10 => 0b0011 2 2
+table_add ingress.bier_c.bift ingress.bier_c.forward 0b0100&&&0b0100 0b100&&&0b100 => 0b0100 3 3

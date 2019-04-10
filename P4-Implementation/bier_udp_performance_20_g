@@ -1,0 +1,49 @@
+------------------------------------------------------------
+Client connecting to 224.0.0.1, UDP port 5001
+Sending 1470 byte datagrams, IPG target: 0.55 us (kalman adjust)
+Setting multicast TTL to 1
+UDP buffer size:  208 KByte (default)
+------------------------------------------------------------
+[ 24] local 10.0.1.1 port 54469 connected with 224.0.0.1 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[ 24]  0.0- 0.5 sec   292 MBytes  4.90 Gbits/sec
+[ 24]  0.5- 1.0 sec   302 MBytes  5.07 Gbits/sec
+[ 24]  1.0- 1.5 sec   300 MBytes  5.03 Gbits/sec
+[ 24]  1.5- 2.0 sec   298 MBytes  5.00 Gbits/sec
+[ 24]  2.0- 2.5 sec   304 MBytes  5.10 Gbits/sec
+[ 24]  2.5- 3.0 sec   304 MBytes  5.10 Gbits/sec
+[ 24]  3.0- 3.5 sec   301 MBytes  5.05 Gbits/sec
+[ 24]  3.5- 4.0 sec   298 MBytes  5.00 Gbits/sec
+[ 24]  4.0- 4.5 sec   301 MBytes  5.05 Gbits/sec
+[ 24]  4.5- 5.0 sec   303 MBytes  5.08 Gbits/sec
+[ 24]  5.0- 5.5 sec   302 MBytes  5.07 Gbits/sec
+[ 24]  5.5- 6.0 sec   297 MBytes  4.99 Gbits/sec
+[ 24]  6.0- 6.5 sec   302 MBytes  5.07 Gbits/sec
+[ 24]  6.5- 7.0 sec   302 MBytes  5.07 Gbits/sec
+[ 24]  7.0- 7.5 sec   303 MBytes  5.09 Gbits/sec
+[ 24]  7.5- 8.0 sec   297 MBytes  4.99 Gbits/sec
+[ 24]  8.0- 8.5 sec   301 MBytes  5.05 Gbits/sec
+[ 24]  8.5- 9.0 sec   304 MBytes  5.10 Gbits/sec
+[ 24]  9.0- 9.5 sec   302 MBytes  5.07 Gbits/sec
+[ 24]  9.5-10.0 sec   298 MBytes  5.00 Gbits/sec
+[ 24] 10.0-10.5 sec   298 MBytes  5.00 Gbits/sec
+[ 24] 10.5-11.0 sec   302 MBytes  5.06 Gbits/sec
+[ 24] 11.0-11.5 sec   302 MBytes  5.07 Gbits/sec
+[ 24] 11.5-12.0 sec   295 MBytes  4.95 Gbits/sec
+[ 24] 12.0-12.5 sec   264 MBytes  4.42 Gbits/sec
+[ 24] 12.5-13.0 sec   271 MBytes  4.54 Gbits/sec
+[ 24] 13.0-13.5 sec   288 MBytes  4.84 Gbits/sec
+[ 24] 13.5-14.0 sec   280 MBytes  4.70 Gbits/sec
+[ 24] 14.0-14.5 sec   291 MBytes  4.89 Gbits/sec
+[ 24] 14.5-15.0 sec   285 MBytes  4.78 Gbits/sec
+[ 24] 15.0-15.5 sec   274 MBytes  4.60 Gbits/sec
+[ 24] 15.5-16.0 sec   270 MBytes  4.54 Gbits/sec
+[ 24] 16.0-16.5 sec   275 MBytes  4.61 Gbits/sec
+[ 24] 16.5-17.0 sec   285 MBytes  4.78 Gbits/sec
+[ 24] 17.0-17.5 sec   280 MBytes  4.70 Gbits/sec
+[ 24] 17.5-18.0 sec   276 MBytes  4.62 Gbits/sec
+[ 24] 18.0-18.5 sec   280 MBytes  4.69 Gbits/sec
+[ 24] 18.5-19.0 sec   281 MBytes  4.72 Gbits/sec
+[ 24] 19.0-19.5 sec   273 MBytes  4.58 Gbits/sec
+[ 24]  0.0-20.0 sec  11.4 GBytes  4.89 Gbits/sec
+[ 24] Sent 8316137 datagrams
