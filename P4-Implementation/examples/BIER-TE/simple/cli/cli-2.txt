@@ -1,6 +1,0 @@
-mirroring_add 1024 14
-table_set_default ingress.ipv4_c.ipv4_lpm drop
-table_add ingress.ipv4_c.ipv4_mc ingress.ipv4_c.ipv4_forward 224.0.0.1 => 1
-table_add ingress.tunnel_c.decap_bier ingress.tunnel_c.bier_decap 0b010&&&0b010 => 0b010 1
-table_add ingress.bte_c.bift ingress.bte_c.forward 0b100000000&&&0b100000000 => 0b100000000 0b110000010 2 2
-table_add ingress.bte_c.bift ingress.bte_c.forward 0b010000000&&&0b010000000 => 0b010000000 0b110000010 3 1 

@@ -1,4 +1,0 @@
-mirroring_add 1024 14
-table_add ingress.tunnel_c.decap_bier ingress.tunnel_c.bier_decap 0b01&&&0b01 => 0b01 1
-table_add ingress.ipv4_c.ipv4_mc ingress.ipv4_c.ipv4_forward 224.0.0.1 => 1
-table_add egress.tunnel_c.decap_ipv4 egress.tunnel_c.ipv4_decap 20.0.4.7 => 

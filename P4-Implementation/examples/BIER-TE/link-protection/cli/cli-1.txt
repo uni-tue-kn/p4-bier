@@ -1,6 +1,0 @@
-mirroring_add 1024 14
-table_add egress.tunnel_c.encap_ipv4 egress.tunnel_c.add_bier 224.0.0.1 => 0b000010100110 0xBB01
-table_add ingress.bte_c.bift ingress.bte_c.forward 0b0100000&&&0b0100000 => 0b0100000 0b010100001 3 1
-table_add ingress.bte_c.btaft ingress.bte_c.bte_add_reset 0b010000000&&&0b010000000 0b010000000&&&0b010000000 => 0b100100100010 0b0 0b010000000 2
-table_add ingress.bte_c.failed_adjacencies ingress.bte_c.set_failed_adjacencies => 0b010000000
-

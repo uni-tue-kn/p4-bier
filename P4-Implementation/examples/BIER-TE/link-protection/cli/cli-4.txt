@@ -1,2 +1,0 @@
-mirroring_add 1024 14
-table_add ingress.bte_c.bift ingress.bte_c.forward 0b100000000000&&&0b100000000000 => 0b100000000000 0b101000001000 1 1 

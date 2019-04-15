@@ -1,6 +1,0 @@
-{
-  "target": "bmv2",
-  "p4info": "build/sdn-bfr.p4info",
-  "bmv2_json": "build/sdn-bfr.json",
-  "table_entries": []
-}

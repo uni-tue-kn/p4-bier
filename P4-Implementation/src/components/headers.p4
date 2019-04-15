@@ -14,8 +14,6 @@ typedef bit<9> egressSpec_t;
 typedef bit<48> macAddr_t;
 typedef bit<32> ip4Addr_t;
 typedef bit<64> bierBitmask;
-typedef bit<64> domainBitmask;
-typedef bit<128> sr_segments;
 
 // proto numbers
 const bit<16> TYPE_IPV4 = 0x800;
