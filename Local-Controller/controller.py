@@ -84,10 +84,10 @@ if __name__ == '__main__':
 
     parser.add_argument('--p4info', help='p4info proto in text format from p4c',
                         type=str, action="store", required=False,
-                        default='/home/P4/Implementation/P4-Implementation/build/sdn-bfr.p4info')
+                        default='../P4-Implementation/build/sdn-bfr.p4info')
     parser.add_argument('--bmv2-json', help='BMv2 JSON file from p4c',
                         type=str, action="store", required=False,
-                        default='/home/P4/Implementation/P4-Implementation/build/sdn-bfr.json')
+                        default='../P4-Implementation/build/sdn-bfr.json')
     parser.add_argument('--grpc-port', help='GRPC port of switch',
                         type=int, action="store", required=True,
                         default=50051)
