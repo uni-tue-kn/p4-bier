@@ -26,6 +26,12 @@ When the mininet topology has started, the global controller can be started. To 
 
 ![](gifs/controller.gif)
 
+### Start the host cli
+
+When the mininet topology has started, a xterm session for the hosts can be invoked. Inside the mininet cli type `xterm h1` to start a xterm session for the host h1. Inside the xterm session, type `./host_cli/main.py` to open the host cli. The host cli features several functions, e.g. the (un-)subscription of multicast groups or to send a packet to a given ip address.
+
+![](gifs/host_cli.gif)
+
 ## Documentation
 
 A documentation for the data plane implementation can be found in the repository wiki.
