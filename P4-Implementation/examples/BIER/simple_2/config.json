@@ -3,7 +3,7 @@
     {
       "name": "s1",
       "ingress": true,
-      "local_controller_port": 30051,
+      "local_controller_port": 30051
     },
     {
       "name": "s2",
