@@ -14,6 +14,18 @@ Inside the `Install` folder, run `./setup.sh`. This will install all required de
 
 ## Usage
 
+### Start a mininet topology
+
+To start a mininet topology, go inside the `P4-Implementation` folder and run `make run TOP=XXX` where `XXX` is the desired topology, e.g. `BIER/simple`. The corresponding local controllers are automatically started.
+
+![](gifs/mininet.gif)
+
+### Start the global controller 
+
+When the mininet topology has started, the global controller can be started. To that end, go inside the `Controller-Implementation` folder and run `./controller --config ../P4-Implementation/examples/XXX/config.json` where `XXX` is the previously started topology. The configuration file contains the grpc ports of the p4 switches and the configuration for the global controller, e.g. if node protection should be used.
+
+![](gifs/controller.gif)
+
 ## Documentation
 
 A documentation for the data plane implementation can be found in the repository wiki.
