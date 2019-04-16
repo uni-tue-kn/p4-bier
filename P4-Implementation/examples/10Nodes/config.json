@@ -56,5 +56,8 @@
   "listen_port": 53020,
   "protection": "Link",
   "delay": 0.15,
-  "update": ["ipv4"]
+  "update": [
+    "ipv4"
+  ],
+  "static_rules": false
 }
