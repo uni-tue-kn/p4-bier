@@ -1,7 +1,0 @@
-mirroring_add 1024 14
-table_add egress.tunnel_c.encap_ipv4 egress.tunnel_c.add_bier 224.0.0.1 => 0b110 0xBB00
-table_add ingress.bier_c.live_ports ingress.bier_c.set_livePorts => 0b111
-table_add ingress.bier_c.bift ingress.bier_c.forward 0b010&&&0b010 0b0100&&&0b0100 => 0b110 3 1
-table_add ingress.bier_c.bift ingress.bier_c.forward 0b100&&&0b100 0b0100&&&0b0100 => 0b110 3 2
-
-
