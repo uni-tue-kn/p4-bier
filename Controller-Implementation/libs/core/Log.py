@@ -12,6 +12,7 @@ class Log:
     Define simple info, debug and error output
     """
     log_file = "logs/event.log"
+    log_dir = "logs"
 
     @staticmethod
     def info(*args):
