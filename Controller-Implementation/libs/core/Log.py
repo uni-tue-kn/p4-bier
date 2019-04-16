@@ -5,6 +5,7 @@ This module enables log functionality inside the CLI
 import datetime
 from libs.core.Event import Event
 from libs.Configuration import Configuration
+import os
 
 class Log:
     """
@@ -32,6 +33,8 @@ class Log:
 
     @staticmethod
     def event(*args):
+        if not os.path.exists(Log.log_dir):
+            os.makedirs(Log.log_dir)
         f = open(Log.log_file, "a")
         f.write(str(datetime.datetime.now()) + ' ' + ' '.join(map(str, args)) + "\r\n")
 
