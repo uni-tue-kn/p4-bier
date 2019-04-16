@@ -1,5 +1,0 @@
-mirroring_add 1024 14
-table_add ingress.bier_c.live_ports ingress.bier_c.set_livePorts => 0b111
-table_add ingress.tunnel_c.decap_bier ingress.tunnel_c.bier_decap 0b010&&&0b010 => 0b010 1
-table_add ingress.ipv4_c.ipv4_mc ingress.ipv4_c.ipv4_forward 224.0.0.1 => 1
-table_add ingress.ipv4_c.ipv4_lpm ingress.ipv4_c.ipv4_forward 20.0.0.3/32 => 2
