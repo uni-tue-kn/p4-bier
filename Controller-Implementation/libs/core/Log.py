@@ -11,7 +11,7 @@ class Log:
     """
     Define simple info, debug and error output
     """
-    log_file = "event.log"
+    log_file = "logs/event.log"
     log_dir = "logs"
 
     @staticmethod
@@ -36,7 +36,7 @@ class Log:
     def event(*args):
         if not os.path.exists(Log.log_dir):
             os.makedirs(Log.log_dir)
-        f = open(Log.log_file, "a")
+        f = open(Log.log_dir + "/" + Log.log_file, "a+")
         f.write(str(datetime.datetime.now()) + ' ' + ' '.join(map(str, args)) + "\r\n")
 
     @staticmethod
