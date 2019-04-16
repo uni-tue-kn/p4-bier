@@ -26,10 +26,11 @@
       "local_controller_port": 30055
     }
   ],
-  "mode": "BIER-TE",
+  "mode": "BIER",
   "debug": true,
-  "cluster": 2,
-  "tunnel": "IPv4",
   "listen_port": 53020,
-  "protection": "None"
+  "protection": "None",
+  "static_rules": false,
+  "update": [],
+  "delay": 0.15
 }

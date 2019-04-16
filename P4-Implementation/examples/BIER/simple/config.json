@@ -4,7 +4,7 @@
       "name": "s1",
       "ingress": true,
       "local_controller_port": 30051,
-      "static_rules": "/home/P4/Implementation/P4-Implementation/examples/BIER/simple/cli/cli-1.json"
+      "static_rules": "./examples/BIER/simple/cli/cli-1.json"
     },
     {
       "name": "s2",

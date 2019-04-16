@@ -53,8 +53,8 @@
   ],
   "mode": "BIER",
   "debug": true,
-  "cluster": 3,
-  "tunnel": "SR",
   "listen_port": 53020,
-  "protection": "Link"
+  "protection": "Link",
+  "delay": 0.15,
+  "update": ["ipv4"]
 }
